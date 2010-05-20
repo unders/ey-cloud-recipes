@@ -18,3 +18,6 @@ end
 
 #uncomment to turn on memcached
 # require_recipe "memcached"
+
+
+require_recipe "utility_cron_job"
