@@ -2,7 +2,7 @@
 # Cookbook Name:: utility_cron_job
 # Recipe:: default
 #
-if ['utility'].include?(node[:instance_role])
+if ['util'].include?(node[:instance_role])
   cron "test to write to log" do
     minute '2'
     hour '*'
